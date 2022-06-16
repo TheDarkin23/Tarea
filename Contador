@@ -1,0 +1,8 @@
+Inicio
+    Definir suma como Entero
+    Para i = 0; i < 100
+        i = + 1
+        suma = suma + i
+    End Para
+    Escrbir "La suma del 1 al 100 es: "; print suma
+Fin
