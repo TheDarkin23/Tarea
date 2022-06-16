@@ -1,0 +1,15 @@
+Inicio
+    Definir numero como impar
+    Repetir
+        Escribir "Escribe un numero impar"
+        leer impar
+    Hasta Que impar % 2 = 1
+    Array dimension numeros_aleatorios[impar]
+    Para i = 0 Hasta impar-1 Hacer
+        numeros_aleatorios[i] = Aleatorio(0,20)
+        escribir numeros_aleatorios[i]
+    End Para
+    Escribir ""
+    pos_central = trunc(impar / 2)
+    Escribir "Posicion central: ", numeros_aleatorios[pos_central]
+Fin
