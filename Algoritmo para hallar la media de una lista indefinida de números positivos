@@ -1,0 +1,18 @@
+Inicio 
+  Definir C como Entero
+  Definir X, suma Como Real
+  X = 1 
+  suma = 0
+  c = 0
+  Mientras x >= 0 Hacer
+     Escribir "Ingrese Un Numero"
+     Leer x
+     Si x >= 0 Entonces 
+        suma = suma + X
+        c = + 1
+     End Si
+  Fin Mientras
+  Si c > 0 Entonces
+     Escribir "La media de los numeros es: ", suma / c
+  End Si
+Fin
