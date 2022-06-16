@@ -1,0 +1,14 @@
+Inicio
+    Definir num como entero
+    Definir suma como entero
+    Definir tamaño Como Entero
+    tamaño = 10
+    Dimension num[tamaño]
+    Para i<-1 Hacer
+        Escribir "Introduce un valor para la posición ",i       
+        leer num[i]
+    End Para
+    Para i = 1 Hacer
+        suma<-suma+num[i]
+    End Para
+Fin
