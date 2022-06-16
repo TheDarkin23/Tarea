@@ -3,16 +3,17 @@ Inicio
   Definir X, suma Como Real
   X = 1 
   suma = 0
-  c = 0
-  Mientras x >= 0 Hacer
+  C = 0
+  Escribir "Ingrese numero negativo para obtener la media"
+  Mientras X >= 0 Hacer
      Escribir "Ingrese Un Numero"
-     Leer x
-     Si x >= 0 Entonces 
+     Leer X
+     Si X >= 0 Entonces 
         suma = suma + X
-        c = + 1
+        C = + 1
      End Si
   Fin Mientras
-  Si c > 0 Entonces
-     Escribir "La media de los numeros es: ", suma / c
+  Si C > 0 Entonces
+     Escribir "La media de los numeros es: ", suma / C
   End Si
 Fin
